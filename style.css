@@ -5,13 +5,22 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
 .header {
     background-color: #1F2937;
     display: flex;
     gap: 30px;
-
     align-items: center;
     justify-content: center;
+    height: 500px;
 }
 
 .header a {
@@ -19,17 +28,26 @@
     color: #E5E7EB;
 }
 
+.header-top {
+    display: flex;
+    align-self: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    width: 100vh;
+    justify-content: center;
+}
+
 .header-logo {
     display: flex;
-
     font-size: 24px;
+    font-weight: 700;
     color: #F9FAF8;
+    margin-right: auto;
 }
 
 .header-links {
     display: flex;
     gap: 30px;
-
     font-size: 18px;
     color: #E5E7EB;
 }
