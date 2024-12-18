@@ -57,25 +57,25 @@ body {
     gap: 125px;
 }
 
-.header-bottom img {
+.header-hero-img img {
     width: 500px;
     height: 250px;
 }
 
-.hero h1 {
+.header-hero h1 {
     font-size: 48px;
     color: #f9faf9;
     font-weight: 900;
     margin: 0;
 }
 
-.hero p {
+.header-hero p {
     font-size: 18px;
     color: #e5e7e5;
     margin: 0;
 }
 
-.hero button {
+.header-hero button {
     background-color: #3882F6;
     color: #f9faf9;
     border: none;
