@@ -62,20 +62,20 @@ body {
     height: 250px;
 }
 
-.CTA h1 {
+.hero h1 {
     font-size: 48px;
     color: #f9faf9;
     font-weight: 900;
     margin: 0;
 }
 
-.CTA p {
+.hero p {
     font-size: 18px;
     color: #e5e7e5;
     margin: 0;
 }
 
-.CTA button {
+.hero button {
     background-color: #3882F6;
     color: #f9faf9;
     border: none;
