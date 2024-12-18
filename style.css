@@ -17,10 +17,9 @@ body {
 .header {
     background-color: #1F2937;
     display: flex;
-    gap: 30px;
     align-items: center;
-    justify-content: center;
-    height: 500px;
+    height: 550px;
+    flex-direction: column;
 }
 
 .header a {
@@ -30,18 +29,15 @@ body {
 
 .header-top {
     display: flex;
-    align-self: flex-start;
     align-items: center;
     margin-top: 20px;
-    width: 100vh;
-    justify-content: center;
+    width: 120vh;
 }
 
 .header-logo {
     display: flex;
     font-size: 24px;
     font-weight: 700;
-    color: #F9FAF8;
     margin-right: auto;
 }
 
@@ -49,5 +45,44 @@ body {
     display: flex;
     gap: 30px;
     font-size: 18px;
-    color: #E5E7EB;
+}
+
+.header-bottom {
+    display: flex;
+    width: 120vh;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    margin-bottom: 150px;
+    gap: 125px;
+}
+
+.header-bottom img {
+    width: 500px;
+    height: 250px;
+}
+
+.CTA h1 {
+    font-size: 48px;
+    color: #f9faf9;
+    font-weight: 900;
+    margin: 0;
+}
+
+.CTA p {
+    font-size: 18px;
+    color: #e5e7e5;
+    margin: 0;
+}
+
+.CTA button {
+    background-color: #3882F6;
+    color: #f9faf9;
+    border: none;
+    border-radius: 8px;
+    width: 135px;
+    height: 37.5px;
+    font-size: 17.5px;
+    font-weight: 500;
+    margin-top: 10px
 }
