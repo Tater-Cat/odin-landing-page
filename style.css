@@ -18,7 +18,7 @@ body {
     background-color: #1F2937;
     display: flex;
     align-items: center;
-    height: 550px;
+    height: 540px;
     flex-direction: column;
 }
 
@@ -53,7 +53,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: auto;
-    margin-bottom: 150px;
+    margin-bottom: 135px;
     gap: 125px;
 }
 
@@ -85,4 +85,48 @@ body {
     font-size: 17.5px;
     font-weight: 500;
     margin-top: 10px
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 520px;
+}
+
+.info-top h1 {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin: 50px;
+}
+
+.info-imgs {
+    display: flex;
+    margin: 0;
+    gap: 50px;
+    justify-content: center;
+}
+
+.info-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-imgs img {
+    width: 170px;
+    height: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+}
+
+.info-img p {
+    max-width: 170px;
+    text-align: center;
+    margin-top: 8px;
+
+    font-size: large;
+    color: #535353
 }
